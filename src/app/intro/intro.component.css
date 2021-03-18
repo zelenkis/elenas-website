@@ -1,0 +1,25 @@
+.intro-left-container {
+  position: relative;
+  height: 100vh;
+}
+
+.intro-frame {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+  border: 1px solid #f8f9fa;
+  width: 450px;
+}
+
+.intro-avatar {
+  position: absolute;
+  top: 120px;
+  right: 150px;
+  border: 1px solid #f8f9fa;
+  width: 450px;
+}
+
+.intro-text {
+  color: #5a6d47;
+  font-family: "Voltaire", sans-serif;
+}
