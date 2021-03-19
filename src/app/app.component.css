@@ -4,3 +4,8 @@
   font-family: "Voltaire", sans-serif;
   font-size: 25px;
 }
+
+.navbar-toggler {
+  border: none;
+  font-size: 2rem;
+}
