@@ -1,1 +1,19 @@
-<p>skills works!</p>
+<div class="container-fluid bg-light">
+    <div class="container">
+        <div class="row d-flex flex-row-reverse bd-highlight" style="height:60vh">
+
+            <div class="col-xl align-self-center text-center">
+                <h1 class="textHeader">Tech Skills</h1>
+            </div>
+
+            <div class="col-xl align-self-center">
+                <button *ngFor='let skill of skillsInfo.skills' [style.cursor]="btnCursor" type="button"
+                    class="btn rounded-pill">
+                    {{ skill.title }} <i *ngIf="skill.icon && skill.icon.length" class="{{ skill.icon }}"></i>
+                </button>
+
+            </div>
+
+        </div>
+    </div>
+</div>

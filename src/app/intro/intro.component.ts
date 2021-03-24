@@ -4,7 +4,7 @@ import { AppComponent } from '../app.component';
 @Component({
   selector: 'app-intro',
   templateUrl: './intro.component.html',
-  styleUrls: ['./intro.component.css']
+  styleUrls: ['./intro.component.css', '../app.component.css']
 })
 export class IntroComponent implements OnInit {
   

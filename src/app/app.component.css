@@ -1,11 +1,52 @@
+.textHeader,
+.navbar-brand,
+.nav-link,
+.btn {
+  font-family: "Voltaire", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #d2d8cc;
+}
+
+a:hover {
+  color: #293a34;
+}
+
+.btn {
+  margin: 10px;
+  background-color: #293a34;
+  color: #d2d8cc;
+  font-size: 30px;
+}
+
+.btn:hover {
+  background-color: #d2d8cc;
+  color: #293a34;
+  transition: 0.5s;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .navbar-brand,
 .nav-link {
   color: #5a6d47;
-  font-family: "Voltaire", sans-serif;
   font-size: 25px;
 }
 
 .navbar-toggler {
   border: none;
   font-size: 2rem;
+}
+
+.text-muted {
+  color: #667d60 !important;
+}
+.textHeader {
+  color: #435a4a;
+  margin: 20px 0;
 }

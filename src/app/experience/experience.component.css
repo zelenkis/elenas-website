@@ -1,14 +1,3 @@
-/* ********************************************* */
-
-.text-muted {
-  color: #667d60 !important;
-}
-.textHeader {
-  font-family: "Voltaire", sans-serif;
-  color: #435a4a;
-  margin: 20px 0;
-}
-
 .timeline {
   position: relative;
   width: 100%;
@@ -17,7 +6,7 @@
   padding: 15px 0;
 }
 
-/* this is the timeline line */
+/* timeline line */
 .timeline::after {
   content: "";
   position: absolute;
@@ -57,7 +46,7 @@
   left: 50%;
 }
 
-/* this is the timeline circle "icon" */
+/* timeline circle "icon" */
 .timeline-box::after {
   content: "";
   position: absolute;
@@ -112,7 +101,7 @@
   left: -65px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 823px) {
   .timeline::after {
     left: 90px;
   }
@@ -134,7 +123,7 @@
 
   .timeline-box.left::before,
   .timeline-box.right::before {
-    left: 100px;
+    left: 95px;
     border-color: transparent #006e51 transparent transparent;
   }
 

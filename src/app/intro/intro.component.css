@@ -66,15 +66,14 @@
   }
 
   .intro-text-header {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .intro-text-parag {
     font-size: 4rem;
   }
 }
-
-@media screen and (max-width: 731px) {
+@media screen and (max-width: 823px) {
   .intro-text {
     position: absolute;
     top: 20%;
@@ -83,6 +82,20 @@
   }
 
   .intro-text-header {
+    font-size: 4rem;
+  }
+
+  .intro-text-parag {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .intro-text {
+    position: absolute;
+    top: 25%;
+  }
+  .intro-text-header {
     font-size: 3.5rem;
   }
 
@@ -90,13 +103,24 @@
     font-size: 2.5rem;
   }
 }
+@media screen and (max-width: 570px) {
+  .intro-text {
+    position: absolute;
+    top: 25%;
+  }
 
-@media screen and (max-width: 320px) {
   .intro-text-header {
     font-size: 3rem;
   }
 
   .intro-text-parag {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .intro-text {
+    position: absolute;
+    top: 20%;
   }
 }
