@@ -12,7 +12,7 @@ export class IntroComponent implements OnInit {
     "basics": {
         "name": "Elena Pistruga",
         "label": "Developer",
-        "picture": "./assets/images/Lenke.jpg",
+        "picture": "assets/images/Lenke.jpg",
         "email": "elena.pistruga@gmail.com",
         "phone": "",
         "website": "",
