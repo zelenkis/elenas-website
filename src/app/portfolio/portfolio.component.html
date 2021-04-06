@@ -7,7 +7,7 @@
         <div class="parentrow row" *ngFor="let project of projects; let even = even; let odd = odd;"
             [ngClass]="{even: even, odd: odd}">
 
-            <div class="imagecol col bg-warning">
+            <div class="imagecol col">
 
                 <img class="portfolio-img img-fluid" src="{{ project.imageUrl }}">
 
