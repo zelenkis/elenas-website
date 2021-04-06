@@ -9,20 +9,19 @@ export class SkillsComponent implements OnInit {
 
   btnCursor="default";
   btnColor="#667D60";
-  skillsInfo = 
-  {
+  skillsInfo = {
     "skills": [
       {
-          "title": "HTML 5",
+          "title": "HTML",
           "icon": "fab fa-html5"
       },
       {
-        "title": "CSS 3",
+        "title": "CSS",
         "icon": "fab fa-css3-alt"
       },
 
       {
-        "title": "Bootstrap 5",
+        "title": "Bootstrap",
         "icon": "fab fa-bootstrap"
       },
 

@@ -5,6 +5,11 @@
   font-family: "Voltaire", sans-serif;
 }
 
+div {
+  font-family: "Open Sans", sans-serif;
+  color: #293a34;
+}
+
 a {
   text-decoration: none;
   color: #d2d8cc;
@@ -30,6 +35,13 @@ a:hover {
 .btn:focus {
   outline: none;
   box-shadow: none;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-subtitle {
 }
 
 .navbar-brand,

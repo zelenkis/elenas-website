@@ -37,6 +37,15 @@
             "summary": "Description..."
         }
     ],
+    "projects": [
+        {
+            "title": "eee's Website",
+            "description": "A personal website for portfolio, CV and blog built with Angular and Bootstrap.",
+            "image": "",
+            "URL": "",
+            "gitHub": "https://github.com/zelenkis/elenas-website"
+        }
+    ],
     "education": [
         {
             "institution": "Academy of Economic Studies of Moldova",
