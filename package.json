@@ -5,11 +5,10 @@
     "ng": "ng",
     "start": "ng serve -o",
     "build": "ng build",
-    "ghpages": "ng build --prod --output-path docs --base-href /your_project_name/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "ghpages": "ng build --prod --output-path docs --base-href /angular-pluralsight-course-code/"
+    "ghpages": "ng build --prod --output-path docs --base-href /elenas-website/"
   },
   "private": true,
   "dependencies": {
