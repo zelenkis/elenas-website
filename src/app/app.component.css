@@ -1,47 +1,31 @@
-.textHeader,
-.navbar-brand,
-.nav-link,
-.btn {
-  font-family: "Voltaire", sans-serif;
-}
-
-div {
-  font-family: "Open Sans", sans-serif;
-  color: #293a34;
-}
-
 a {
   text-decoration: none;
-  color: #d2d8cc;
+  color: rgb(210, 216, 204);
 }
 
 a:hover {
   color: #293a34;
 }
 
-.btn {
-  margin: 10px;
-  background-color: #293a34;
-  color: #d2d8cc;
-  font-size: 30px;
+div {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(41, 58, 52);
 }
 
-.btn:hover {
-  background-color: #d2d8cc;
-  color: #293a34;
-  transition: 0.5s;
+hr {
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, white, black, white);
 }
 
-.btn:focus {
-  outline: none;
-  box-shadow: none;
+.navbar-brand,
+.nav-link,
+.text-header {
+  font-family: "Voltaire", sans-serif;
 }
 
 .card-title {
   font-weight: 600;
-}
-
-.card-subtitle {
 }
 
 .navbar-brand,
@@ -58,7 +42,11 @@ a:hover {
 .text-muted {
   color: #667d60 !important;
 }
-.textHeader {
+.text-header {
   color: #435a4a;
   margin: 20px 0;
+}
+
+.row {
+  --bs-gutter-x: 0;
 }

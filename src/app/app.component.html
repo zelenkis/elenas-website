@@ -1,36 +1,29 @@
-<div class="container-fluid bg-light">
-  <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
-    <div class="container">
+<nav class="navbar navbar-expand-md navbar-light sticky-top bg-light">
+  <div class="container ">
+    <a class="navbar-brand" href="#">{{ title | uppercase}}</a>
 
-      <a class="navbar-brand" href="#">{{ title | uppercase}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-angle-double-down"></i>
+    </button>
+    <div class="collapse navbar-collapse col-md-2 offset-md-5" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-angle-double-down"></i>
-      </button>
-      <div class="collapse navbar-collapse col-md-3 offset-md-6" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link border rounded-pill" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
-  <app-intro></app-intro>
-  <app-experience></app-experience>
-  <app-skills></app-skills>
-  <app-portfolio></app-portfolio>
+  </div>
+</nav>
 
-</div>
+<app-intro></app-intro>
+<app-about></app-about>
+<app-experience></app-experience>
+<app-portfolio></app-portfolio>

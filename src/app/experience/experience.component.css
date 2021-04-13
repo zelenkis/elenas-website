@@ -1,3 +1,22 @@
+.btnCV {
+  margin: 10px;
+  background-color: #293a34;
+  font-family: "Voltaire", sans-serif;
+  font-size: 30px;
+  color: #d2d8cc;
+}
+
+.btnCV:hover {
+  background-color: #d2d8cc;
+  color: #293a34;
+  transition: 0.5s;
+}
+
+.btnCV:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .timeline {
   position: relative;
   width: 100%;
@@ -12,12 +31,13 @@
   position: absolute;
   width: 2px;
   background-image: linear-gradient(
-    #d2d8cc,
+    rgb(210, 216, 204, 0),
     #293a34,
     #293a34,
     #293a34,
     #293a34,
-    #d2d8cc
+    #293a34,
+    rgb(210, 216, 204, 0)
   );
   top: 0;
   bottom: 0;

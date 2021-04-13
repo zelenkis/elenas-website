@@ -18,7 +18,7 @@ export class PortfolioComponent implements OnInit {
       "title": "Personal Website",
       "description": "My personal portfolio website for showcasing my experience, CV, as well as blog articles. Built with Angular and Bootstrap.",
       "imageUrl": "assets/images/pexels-light-coffee.jpg",
-      "URL": "",
+      "URL": "https://zelenkis.github.io/elenas-website/",
       "gitHub": "https://github.com/zelenkis/elenas-website"
     },
     {

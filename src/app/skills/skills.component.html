@@ -1,13 +1,7 @@
-<div class="container">
-    <div class="row d-flex flex-row-reverse bd-highlight" style="height:60vh">
-        <div class="col-xl align-self-center text-center">
-            <h1 class="textHeader">Tech Skills</h1>
-        </div>
-        <div class="col-xl align-self-center">
-            <button *ngFor='let skill of skillsInfo.skills' [style.cursor]="btnCursor" type="button"
-                class="btn rounded-pill">
-                {{ skill.title }} <i *ngIf="skill.icon && skill.icon.length" class="{{ skill.icon }}"></i>
-            </button>
-        </div>
+<div class="col-lg align-self-center">
+    <div *ngFor='let skill of skillsInfo.skills' [style.cursor]="btnCursor" type="button"
+        class="tagXP btn rounded-pill me-3 mb-3">
+        {{ skill.title }} <i *ngIf="skill.icon && skill.icon.length" class="{{ skill.icon }}"></i>
     </div>
+
 </div>

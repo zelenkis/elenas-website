@@ -16,7 +16,7 @@ export class IntroComponent implements OnInit {
         "email": "elena.pistruga@gmail.com",
         "phone": "",
         "website": "",
-        "summary": "I am Elena - an aspiring Front-End Developer, passionate about Angular and Web Technologies!",
+        "summary": "I am Elena - an aspiring Front-End Developer, passionate about UX and Web Technologies!",
         "location": {
             "city": "Chisinau",
             "country": "Republic of Moldova",
