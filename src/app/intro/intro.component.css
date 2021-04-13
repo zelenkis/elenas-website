@@ -1,5 +1,10 @@
+.intro-title {
+  font-size: 5vw !important;
+}
+
 .intro-body {
-  /* font-family: "Open Sans", sans-serif; */
+  font-size: 2vw !important;
+  color: #667d60;
 }
 
 .intro-pic,
@@ -34,9 +39,8 @@
 .intro-text {
   position: absolute;
   font-family: "Voltaire", sans-serif;
-  color: #f8f9fa !important;
-  /* border: 1px solid #f8f9fa; */
-  /* text-shadow: 3px 3px #293a34; */
+  color: #425a4a !important;
+  padding-right: 5vw;
 }
 
 @media screen and (max-width: 1367px) {
@@ -53,6 +57,7 @@
     backdrop-filter: blur(7px);
     border-radius: 5px;
     padding: 5vh 0;
+    color: #f8f9fa !important;
   }
 
   .intro-title {
@@ -60,6 +65,7 @@
   }
   .intro-body {
     font-size: 10vw !important;
+    color: #f8f9fa !important;
   }
 }
 
