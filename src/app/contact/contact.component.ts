@@ -7,6 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  contacts = {
+    "email": {
+        "emailAdress": "elena.pistruga@gmail.com",
+        "icon": "fas fa-envelope"
+    },
+    "linkedin":
+    {
+        "linkedinUrl": "https://www.linkedin.com/in/elenapistruga",
+        "icon": "fab fa-linkedin-in"
+    },
+    "telegram":
+    {
+        "telegramUrl": "https://t.me/hellen_pi",
+        "icon": "fab fa-telegram-plane"
+    }
+  };
+
   constructor() { }
 
   ngOnInit(): void {

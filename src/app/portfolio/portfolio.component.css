@@ -21,10 +21,6 @@
   font-size: 1.5rem;
 }
 
-.text-muted {
-  text-decoration: underline;
-}
-
 .parentrow {
   --bs-gutter-x: 0 !important;
 }

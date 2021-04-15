@@ -1,10 +1,12 @@
 a {
   text-decoration: none;
-  color: rgb(210, 216, 204);
+  border-bottom: 1px solid #d2d8cc;
 }
 
 a:hover {
-  color: #293a34;
+  text-decoration: none;
+  background-color: #d2d8cc;
+  transition: 0.5s;
 }
 
 div {
@@ -16,6 +18,10 @@ hr {
   border: none;
   height: 1px;
   background-image: linear-gradient(to right, white, black, white);
+}
+
+.border {
+  border: 1px solid #d2d8cc !important;
 }
 
 .navbar-brand,

@@ -1,3 +1,12 @@
+a {
+  text-decoration: none;
+  color: rgb(210, 216, 204);
+}
+
+a:hover {
+  color: #293a34;
+}
+
 .btnCV {
   margin: 10px;
   background-color: #293a34;

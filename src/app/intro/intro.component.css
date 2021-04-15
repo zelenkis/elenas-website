@@ -3,7 +3,7 @@
 }
 
 .intro-body {
-  font-size: 2vw !important;
+  font-size: 3vw !important;
   color: #667d60;
 }
 
@@ -40,7 +40,7 @@
   position: absolute;
   font-family: "Voltaire", sans-serif;
   color: #425a4a !important;
-  padding-right: 5vw;
+  /* padding-right: 5vw; */
 }
 
 @media screen and (max-width: 1367px) {
@@ -53,8 +53,9 @@
   .intro-text {
     text-align: center;
     margin: 0 9vw;
-    background-color: rgb(41, 58, 52, 0.2);
-    backdrop-filter: blur(7px);
+    background-color: rgb(41, 58, 52, 0.4);
+    text-shadow: 5px 3px 20px black;
+    backdrop-filter: blur(2px);
     border-radius: 5px;
     padding: 5vh 0;
     color: #f8f9fa !important;

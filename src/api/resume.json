@@ -3,8 +3,20 @@
         "name": "Elena Pistruga",
         "label": "Developer",
         "picture": "./assets/images/Lenke.jpg",
-        "email": "elena.pistruga@gmail.com",
-        "phone": "",
+        "contacts": [
+            {
+                "email": "elena.pistruga@gmail.com",
+                "icon": "fas fa-envelope fs-1"
+            },
+            {
+                "linkedinUrl": "https://www.linkedin.com/in/elenapistruga",
+                "icon": "fab fa-linkedin-in"
+            },
+            {
+                "telegram": "https://t.me/hellen_pi",
+                "icon": "fab fa-telegram-plane"
+            }
+        ],
         "website": "",
         "summary": "An aspiring Front-End Developer, with a sharp eye on UI design, in love with Angular",
         "location": {
