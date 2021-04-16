@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.css', '../app.component.css'],
   styles: [`.odd{
     flex-direction: row-reverse !important;
-    
-  }
+    }
   `
 ]
 })
