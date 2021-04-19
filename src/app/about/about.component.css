@@ -6,3 +6,7 @@
 .text-muted {
   font-size: 18px;
 }
+
+li::marker {
+  content: "▶  ";
+}

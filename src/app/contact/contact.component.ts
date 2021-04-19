@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css', '../app.component.css']
 })
 export class ContactComponent implements OnInit {
+  title = "Contact Me";
 
   contacts = {
     "email": {

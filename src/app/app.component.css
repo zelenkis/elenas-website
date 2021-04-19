@@ -24,31 +24,16 @@ hr {
   border: 1px solid #d2d8cc !important;
 }
 
-.navbar-brand,
-.nav-link,
-.text-header {
-  font-family: "Voltaire", sans-serif;
-}
-
 .card-title {
   font-weight: 600;
-}
-
-.navbar-brand,
-.nav-link {
-  color: #5a6d47;
-  font-size: 25px;
-}
-
-.navbar-toggler {
-  border: none;
-  font-size: 2rem;
 }
 
 .text-muted {
   color: #667d60 !important;
 }
+
 .text-header {
+  font-family: "Voltaire", sans-serif;
   color: #435a4a;
   margin: 20px 0;
 }
