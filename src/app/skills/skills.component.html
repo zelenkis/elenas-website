@@ -1,1 +1,7 @@
-<p>skills works!</p>
+<div class="col-lg align-self-center my-5 mx-0">
+    <div *ngFor='let skill of skillsInfo.skills' [style.cursor]="btnCursor" type="button"
+        class="tagXP btn rounded-pill me-3 mb-3">
+        {{ skill.title }} <i *ngIf="skill.icon && skill.icon.length" class="{{ skill.icon }}"></i>
+    </div>
+
+</div>

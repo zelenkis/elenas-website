@@ -1,102 +1,80 @@
+.intro-title {
+  font-size: 5vw !important;
+}
+
+.intro-body {
+  font-size: 3vw !important;
+  color: #667d60;
+}
+
+.intro-pic,
+.intro-portrait {
+  border: 1px solid #f8f9fa;
+}
+
 .intro-left-container {
-  position: relative;
   height: 100vh;
+  position: relative;
 }
 
-.intro-frame-1 {
+.intro-pic {
+  width: 20vw;
   position: absolute;
-  top: 100px;
-  right: 300px;
-  border: 1px solid #f8f9fa;
-  width: 450px;
+  top: 5%;
+  right: 30%;
 }
 
-.intro-frame-2 {
-  display: none;
-}
-
-.intro-avatar {
+.intro-portrait {
+  width: 18vw;
   position: absolute;
-  top: 200px;
-  right: 150px;
-  border: 1px solid #f8f9fa;
-  width: 450px;
+  top: 20%;
+  right: 15%;
+}
+
+.background-img {
+  width: 100vw;
+  position: relative;
 }
 
 .intro-text {
-  color: #5a6d47;
+  position: absolute;
   font-family: "Voltaire", sans-serif;
+  color: #425a4a !important;
+  /* padding-right: 5vw; */
 }
 
-.intro-text-header {
-  font-size: 5rem;
-}
-
-.intro-text-parag {
-  font-size: 2.5rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .intro-frame-2 {
-    display: flex;
+@media screen and (max-width: 1367px) {
+  .background-img {
+    /* width: 100vw; */
     object-fit: cover;
-    width: 100vw;
-    position: relative;
-    border: 1px solid #f8f9fa;
-  }
-
-  .intro-frame-1 {
-    display: none;
-  }
-
-  .intro-avatar {
-    display: none;
+    height: 90vh;
   }
 
   .intro-text {
-    position: absolute;
-    top: 25%;
-    width: 90%;
-    left: 5%;
-    color: #f8f9fa;
-    /* color: #293a34; */
-    font-family: "Voltaire", sans-serif;
     text-align: center;
-    text-shadow: 3px 3px 5px #293a34;
+    margin: 0 9vw;
+    background-color: rgb(41, 58, 52, 0.4);
+    text-shadow: 5px 3px 20px black;
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    padding: 5vh 0;
+    color: #f8f9fa !important;
   }
 
-  .intro-text-header {
-    font-size: 6rem;
+  .intro-title {
+    font-size: 15vw !important;
   }
-
-  .intro-text-parag {
-    font-size: 4rem;
-  }
-}
-
-@media screen and (max-width: 731px) {
-  .intro-text {
-    position: absolute;
-    top: 20%;
-    right: 5%;
-    width: auto;
-  }
-
-  .intro-text-header {
-    font-size: 3.5rem;
-  }
-
-  .intro-text-parag {
-    font-size: 2.5rem;
+  .intro-body {
+    font-size: 10vw !important;
+    color: #f8f9fa !important;
   }
 }
 
-@media screen and (max-width: 280px) {
-  .intro-text-header {
-    font-size: 3rem;
+@media screen and (min-width: 500px) {
+  .intro-title {
+    font-size: 5vw !important;
   }
-
-  .intro-text-parag {
-    font-size: 2rem;
+  .intro-body {
+    font-size: 3vw !important;
   }
 }
