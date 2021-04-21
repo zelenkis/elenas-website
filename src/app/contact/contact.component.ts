@@ -9,19 +9,21 @@ export class ContactComponent implements OnInit {
   title = "Contact Me";
 
   contacts = {
-    "email": {
-        "emailAdress": "elena.pistruga@gmail.com",
-        "icon": "fas fa-envelope"
+    email: {
+        address: "elena.pistruga@gmail.com",
+        icon: "fas fa-envelope"
     },
-    "linkedin":
+    linkedIn:
     {
-        "linkedinUrl": "https://www.linkedin.com/in/elenapistruga",
-        "icon": "fab fa-linkedin-in"
+        url: "https://www.linkedin.com/in/elenapistruga",
+        account: "elenapistruga",
+        icon: "fab fa-linkedin-in"
     },
-    "telegram":
+    telegram:
     {
-        "telegramUrl": "https://t.me/hellen_pi",
-        "icon": "fab fa-telegram-plane"
+        url: "https://t.me/hellen_pi",
+        account: "hellen_pi",
+        icon: "fab fa-telegram-plane"
     }
   };
 
