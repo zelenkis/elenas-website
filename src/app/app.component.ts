@@ -1,4 +1,4 @@
-import { Component, OnInit, Output } from '@angular/core';
+import { Component } from '@angular/core';
 import { ResumeService } from './resume.service';
 
 
@@ -11,6 +11,4 @@ import { ResumeService } from './resume.service';
 })
 
 export class AppComponent {
-     
-
 }
