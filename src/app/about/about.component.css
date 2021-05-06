@@ -1,0 +1,12 @@
+.container {
+  /* height: 90vh; */
+  margin-bottom: 10%;
+}
+
+.text-muted {
+  font-size: 18px;
+}
+
+li::marker {
+  content: "▶  ";
+}

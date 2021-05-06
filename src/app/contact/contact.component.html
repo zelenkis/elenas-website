@@ -1,1 +1,42 @@
-<p>contact works!</p>
+<div class="container-fluid" id="contact">
+    <div class="row align-items-center">
+        <div class="col d-none d-md-block">
+            <img src="/assets/images/pexels-contact-light.jpg" class="img-fluid ">
+
+        </div>
+        <div class="col">
+            <div class="container ps-4 mx-auto">
+                <h1 class="text-header">{{ title }}</h1>
+
+                <div class="row my-4 justify-content-sm-center">
+                    <div class="col">
+                        <i class="{{ contacts.email.icon }} fs-5"></i>
+                        <span class="text-muted fs-5 ms-2">
+                            <a class="text-muted" href="mailto:{{contacts.email.address}}">{{ contacts.email.address }}</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row my-4 ">
+                    <div class="col">
+                        <i class="{{ contacts.linkedIn.icon }} fs-4"></i>
+                        <span class="fs-5 ms-2">
+                            <a class="text-muted" href="{{ contacts.linkedIn.url }}"
+                                target="_blank">{{ contacts.linkedIn.account }}</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row my-4">
+                    <div class="col">
+                        <i class="{{ contacts.telegram.icon }} fs-4"></i>
+                        <span class="fs-5 ms-2">
+                            <a class="text-muted" href="{{ contacts.telegram.url }}"
+                                target="_blank">{{ contacts.telegram.account }}</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="col-lg-6 my-4 mx-auto">
+        <h1 class="text-header text-center">{{ title }}
+            <hr>
+        </h1>
+
+        <div class="text-muted fs-6 mb-3">
+            <p class="text mb-4">
+                {{ aboutText.p1 }}
+            </p>
+            <p class="text mb-4">
+                {{ aboutText.p2 }}
+
+            </p>
+            <p class="text mb-4">
+                {{ aboutText.p3 }}
+
+            </p>
+            <ul class="text mb-4">
+                <li *ngFor="let listItem of aboutText.listItems">{{ listItem }}</li>
+            </ul>
+
+        </div>
+
+        <app-skills></app-skills>
+
+    </div>
+
+</div>

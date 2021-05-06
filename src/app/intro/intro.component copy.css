@@ -1,0 +1,128 @@
+.intro-left-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.intro-pic-1 {
+  position: absolute;
+  top: 10vh;
+  right: 30vh;
+  max-height: 450px;
+  border: 1px solid #f8f9fa;
+}
+
+.intro-pic-2 {
+  display: none;
+}
+
+.intro-avatar {
+  position: absolute;
+  top: 20vh;
+  right: 20vh;
+  max-height: 450px;
+  border: 1px solid #f8f9fa;
+}
+
+.intro-text {
+  color: #4f5f3e;
+  font-family: "Voltaire", sans-serif;
+}
+
+.intro-text-header {
+  font-size: 5rem;
+}
+
+.intro-text-parag {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro-pic-2 {
+    position: relative;
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    /* border: 1px solid #f8f9fa; */
+  }
+
+  .intro-pic-1 {
+    display: none;
+  }
+
+  .intro-avatar {
+    display: none;
+  }
+
+  .intro-text {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 5%;
+    width: 90%;
+    color: #f8f9fa;
+    /* color: #293a34; */
+    font-family: "Voltaire", sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px #293a34;
+  }
+
+  .intro-text-header {
+    font-size: 5rem;
+  }
+
+  .intro-text-parag {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 823px) {
+  .intro-text {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: auto;
+  }
+
+  .intro-text-header {
+    font-size: 4rem;
+  }
+
+  .intro-text-parag {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .intro-text {
+    position: absolute;
+    top: 25%;
+  }
+  .intro-text-header {
+    font-size: 3.5rem;
+  }
+
+  .intro-text-parag {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  .intro-text {
+    position: absolute;
+    top: 25%;
+  }
+
+  .intro-text-header {
+    font-size: 3rem;
+  }
+
+  .intro-text-parag {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .intro-text {
+    position: absolute;
+    top: 20%;
+  }
+}

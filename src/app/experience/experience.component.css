@@ -1,0 +1,164 @@
+a {
+  text-decoration: none;
+  color: rgb(210, 216, 204);
+}
+
+a:hover {
+  color: #293a34;
+}
+
+.btnCV {
+  margin: 10px;
+  background-color: #293a34;
+  font-family: "Voltaire", sans-serif;
+  font-size: 30px;
+  color: #d2d8cc;
+}
+
+.btnCV:hover {
+  background-color: #d2d8cc;
+  color: #293a34;
+  transition: 0.5s;
+}
+
+.btnCV:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  /* max-width: 1140px; */
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+/* timeline line */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-image: linear-gradient(
+    rgb(210, 216, 204, 0),
+    #293a34,
+    #293a34,
+    #293a34,
+    #293a34,
+    #293a34,
+    rgb(210, 216, 204, 0)
+  );
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timeline-box {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.timeline-box:hover {
+  background-color: #d2d8cc;
+  transition: 1s;
+  cursor: default;
+}
+
+.timeline-box.left {
+  left: 0;
+}
+
+.timeline-box.right {
+  left: 50%;
+}
+
+/* timeline circle "icon" */
+.timeline-box::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #d2d8cc;
+  border: 2px solid #293a34;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.timeline-box.right::after {
+  left: -8px;
+}
+
+/* timeline line connecting with the card */
+.timeline-box::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #293a34;
+  z-index: 1;
+}
+
+.timeline-box.right::before {
+  left: 8px;
+}
+
+.timeline-box .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 12px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #667d60;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.timeline-box.left .date {
+  right: -65px;
+}
+
+.timeline-box.right .date {
+  left: -65px;
+}
+
+@media (max-width: 823px) {
+  .timeline::after {
+    left: 90px;
+  }
+
+  .timeline-box {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .timeline-box.right {
+    left: 0%;
+  }
+
+  .timeline-box.left::after,
+  .timeline-box.right::after {
+    left: 82px;
+  }
+
+  .timeline-box.left::before,
+  .timeline-box.right::before {
+    left: 95px;
+    border-color: transparent #006e51 transparent transparent;
+  }
+
+  .timeline-box.left .date,
+  .timeline-box.right .date {
+    right: auto;
+    left: 15px;
+  }
+}

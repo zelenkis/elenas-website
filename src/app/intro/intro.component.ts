@@ -4,7 +4,7 @@ import { AppComponent } from '../app.component';
 @Component({
   selector: 'app-intro',
   templateUrl: './intro.component.html',
-  styleUrls: ['./intro.component.css']
+  styleUrls: ['./intro.component.css', '../app.component.css']
 })
 export class IntroComponent implements OnInit {
   
@@ -12,11 +12,11 @@ export class IntroComponent implements OnInit {
     "basics": {
         "name": "Elena Pistruga",
         "label": "Developer",
-        "picture": "./assets/images/Lenke.jpg",
+        "picture": "assets/images/Lenke.jpg",
         "email": "elena.pistruga@gmail.com",
         "phone": "",
         "website": "",
-        "summary": "I am Elena - an aspiring Front-End Developer, passionate about Angular and Web Technologies!",
+        "summary": "I am Elena - an aspiring Front-End Developer, passionate about UX and Web Technologies!",
         "location": {
             "city": "Chisinau",
             "country": "Republic of Moldova",

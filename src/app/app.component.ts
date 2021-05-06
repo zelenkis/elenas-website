@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+declare var $:any;
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Elena Pistruga';
+  ngOnInit():void {
+    $('[data-toggle="tooltip"]').tooltip();
+}
   
 }
