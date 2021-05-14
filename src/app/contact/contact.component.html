@@ -8,34 +8,17 @@
             <div class="container ps-4 mx-auto">
                 <h1 class="text-header">{{ title }}</h1>
 
-                <div class="row my-4 justify-content-sm-center">
+                <div class="row my-4 justify-content-sm-center" *ngFor="let contact of resumeData?.basics?.contacts">
                     <div class="col">
-                        <i class="{{ contacts.email.icon }} fs-5"></i>
+                        <i class="{{contact.icon}} fs-5"></i>
                         <span class="text-muted fs-5 ms-2">
-                            <a class="text-muted" href="mailto:{{contacts.email.address}}">{{ contacts.email.address }}</a>
+                            <a class="text-muted" href="{{contact.url}}">
+                                {{ contact.account }}
+                            </a>
                         </span>
                     </div>
                 </div>
 
-                <div class="row my-4 ">
-                    <div class="col">
-                        <i class="{{ contacts.linkedIn.icon }} fs-4"></i>
-                        <span class="fs-5 ms-2">
-                            <a class="text-muted" href="{{ contacts.linkedIn.url }}"
-                                target="_blank">{{ contacts.linkedIn.account }}</a>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="row my-4">
-                    <div class="col">
-                        <i class="{{ contacts.telegram.icon }} fs-4"></i>
-                        <span class="fs-5 ms-2">
-                            <a class="text-muted" href="{{ contacts.telegram.url }}"
-                                target="_blank">{{ contacts.telegram.account }}</a>
-                        </span>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ResumeService } from '../resume.service';
+import { IResume } from '../services/resume';
 
 @Component({
   selector: 'app-skills',
@@ -9,77 +11,17 @@ export class SkillsComponent implements OnInit {
 
   btnCursor="default";
   btnColor="#667D60";
-  skillsInfo = {
-    "skills": [
-      {
-          "title": "HTML",
-          "icon": "fab fa-html5"
-      },
-      {
-        "title": "CSS",
-        "icon": "fab fa-css3-alt"
-      },
+  errorMessage!: string;
+  resumeData!: IResume;
 
-      {
-        "title": "Bootstrap",
-        "icon": "fab fa-bootstrap"
-      },
-
-      {
-        "title": "JavaScript",
-        "icon": "fab fa-js-square"
-      },
-
-      {
-        "title": "TypeScript",
-        
-      },
-
-      {
-        "title": "Angular",
-        "icon": "fab fa-angular"
-      },
-
-      {
-        "title": "GitHub",
-        "icon": "fab fa-github-square"
-      },
-
-      {
-        "title": "npm",
-        "icon": "fab fa-npm"
-      },
-
-      {
-        "title": "PHP",
-        "icon": "fab fa-php"
-      },
-
-      {
-        "title": "Laravel",
-        "icon": "fab fa-laravel"
-      },
-
-      {
-        "title": "Laravel Voyager",
-        "icon": "fas fa-dharmachakra"
-      },
-   
-      {
-        "title": "Visual Studio Code"
-      },
-
-      {
-        "title": "Adobe Photoshop"
-      },
-
-    ]
-  }
-  
-         
-  constructor() { }
-
+  constructor(private _resumeService: ResumeService){}
+    
   ngOnInit(): void {
-  }
+
+    this._resumeService.getResumeData()
+                          .subscribe(resumeData => {
+                            this.resumeData = resumeData;
+                          }, error => this.errorMessage = <any>error);
+  } 
 
 }

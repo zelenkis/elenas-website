@@ -1,0 +1,186 @@
+{
+    "basics": {
+        "name": "Elena Pistruga",
+        "currentRole": "Front End Developer",
+        "picture": "assets/images/Lenke.jpg",
+        "contacts": [
+            {
+                "title": "Email",
+                "url": "mailto: elena.pistruga@gmail.com",
+                "account": "elena.pistruga@gmail.com",
+                "icon": "fas fa-envelope"
+            },
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elenapistruga",
+                "account": "https://www.linkedin.com/in/elenapistruga",
+                "icon": "fab fa-linkedin-in"
+            },
+            {
+                "title": "Telegram",
+                "url": "https://t.me/hellen_pi",
+                "account": "hellen_pi",
+                "icon": "fab fa-telegram-plane"
+            }
+        ],
+        "website": "",
+        "summary": "I am Elena - an aspiring Front-End Developer, passionate about UX and Web Technologies!",
+        "location": {
+            "city": "Chisinau",
+            "country": "Republic of Moldova",
+            "countryCode": "MD"
+        },
+        "aboutText": {
+            "paragraphs": [
+                "Elena Pistruga is an aspiring Front-End Developer, based in Chisinau. She started her career in Executive Search industry, where she has acquired valuable skills such as project management, effective communication, problem solving and time management. After 4 years, she has found passion in coding and has set course to pursue a career in Front End Development.",
+                "Elena used her free time during maternity leave and has been consistently learning to code. She has gained valuable knowledge about front-end technologies, object-oriented programming, design patterns, unit testing, version control systems etc. She is also familiar with back-end development.",
+                "Elena is fluent in English, Romanian, Russian and can speak in conversational French.",
+                "Her hobbies are digital art, music, sci-fi and fantasy literature, cooking, travel, video games, modern crocheting, board games and playing on bass guitar."
+            ]
+        }
+    },
+    "roles": [
+        {
+            "company": "Chisinau",
+            "position": "Maternity Leave & Studies",
+            "companyWebsite": "http://pedersenandpartners.com",
+            "startDate": "January 2018",
+            "endDate": "current",
+            "summary": "Description..."
+        },
+        {
+            "company": "Pedersen & Partners, Chisinau & Singapore",
+            "position": "Research Associate, Europe & APAC",
+            "companyWebsite": "http://pedersenandpartners.com",
+            "startDate": "September 2014",
+            "endDate": "January 2018",
+            "summary": "Description..."
+        },
+        {
+            "company": "Pedersen & Partners, Chisinau",
+            "position": "Research Analyst",
+            "companyWebsite": "http://pedersenandpartners.com",
+            "startDate": "March 2013",
+            "endDate": "September 2014",
+            "summary": "Description..."
+        },
+        {
+            "company": "Brainstrom Cafe (ex-Erudit Club), Chisinau",
+            "position": "Sales Agent and Customer Service",
+            "companyWebsite": "http://pedersenandpartners.com",
+            "startDate": "March 2013",
+            "endDate": "September 2013",
+            "summary": "Description..."
+        },
+        {
+            "company": "Brainstrom Cafe (ex-Erudit Club), Chisinau",
+            "position": "Call-Center Customer Service Specialist",
+            "companyWebsite": "http://pedersenandpartners.com",
+            "startDate": "June 2011",
+            "endDate": "September 2013",
+            "summary": "Description..."
+        }
+    ],
+    "projects": [
+        {
+            "title": "Personal Website",
+            "description": "My personal responsive portfolio website for showcasing my experience, CV, as well as blog articles. Built with Angular and Bootstrap.",
+            "imageUrl": "assets/images/pexels-light-coffee.jpg",
+            "URL": "https://zelenkis.github.io/elenas-website/",
+            "gitHubUrl": "https://github.com/zelenkis/elenas-website"
+        },
+        {
+            "title": "Textile Services MD",
+            "description": "A website tailored for a family business that offers home and office textile services. The webiste consists of a landing page and a gallery view. Built with Laravel and Bootstrap.",
+            "imageUrl": "assets/images/pexels-light-eucalyptus-coffee-cup.jpg",
+            "URL": "#",
+            "gitHubUrl": "https://github.com/zelenkis/textileservices"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Academy of Economic Studies of Moldova",
+            "field": "Finance and Banking, English",
+            "degree": "Bachelor Degree",
+            "startDate": "September 2010",
+            "endDate": "May 2013",
+            "courses": [
+                "'Full Stack Web Development' offline course by Tekwill;",
+                "'Dynamic Front-End - JavaScript' bootcamp organized by GirlsGoIT;",
+                "'The Complete JavaScript Course 2021: From Zero to Expert!' online course on Udemy;",
+                "'Object-Oriented Programming in JavaScript - ES6' online course on Pluralsight;",
+                "'TypeScript Fundamentals' online course on Pluralsight;",
+                "'Angular - Getting Started' online course on Pluralsight."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "title": "HTML",
+            "icon": "fab fa-html5"
+        },
+        {
+            "title": "CSS",
+            "icon": "fab fa-css3-alt"
+        },
+        {
+            "title": "Bootstrap",
+            "icon": "fab fa-bootstrap"
+        },
+        {
+            "title": "JavaScript",
+            "icon": "fab fa-js-square"
+        },
+        {
+            "title": "TypeScript"
+        },
+        {
+            "title": "Angular",
+            "icon": "fab fa-angular"
+        },
+        {
+            "title": "GitHub",
+            "icon": "fab fa-github-square"
+        },
+        {
+            "title": "npm",
+            "icon": "fab fa-npm"
+        },
+        {
+            "title": "PHP",
+            "icon": "fab fa-php"
+        },
+        {
+            "title": "Laravel",
+            "icon": "fab fa-laravel"
+        },
+        {
+            "title": "Laravel Voyager",
+            "icon": "fas fa-dharmachakra"
+        },
+        {
+            "title": "Adobe Photoshop"
+        },
+        {
+            "title": "Visual Studio Code"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Romanian",
+            "fluency": "Native"
+        },
+        {
+            "language": "Russian",
+            "fluency": "Native"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "French",
+            "fluency": "Conversational"
+        }
+    ]
+}

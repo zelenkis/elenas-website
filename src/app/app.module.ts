@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
+import { CommonModule } from '@angular/common';
+
 import { AppComponent } from './app.component';
 import { IntroComponent } from './intro/intro.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -24,7 +26,9 @@ import { MenuComponent } from './menu/menu.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    CommonModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

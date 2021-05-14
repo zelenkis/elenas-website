@@ -1,35 +1,29 @@
 import { Component, OnInit } from '@angular/core';
+import { ResumeService } from '../resume.service';
+import { IContacts, IResume } from '../services/resume';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css', '../app.component.css']
+  styleUrls: ['./contact.component.css', '../app.component.css'],
+  providers: [ ResumeService ]
+
 })
 export class ContactComponent implements OnInit {
   title = "Contact Me";
 
-  contacts = {
-    email: {
-        address: "elena.pistruga@gmail.com",
-        icon: "fas fa-envelope"
-    },
-    linkedIn:
-    {
-        url: "https://www.linkedin.com/in/elenapistruga",
-        account: "elenapistruga",
-        icon: "fab fa-linkedin-in"
-    },
-    telegram:
-    {
-        url: "https://t.me/hellen_pi",
-        account: "hellen_pi",
-        icon: "fab fa-telegram-plane"
-    }
-  };
+  errorMessage!: string;
+  resumeData!: IResume;
 
-  constructor() { }
-
+  constructor(private _resumeService: ResumeService){}
+    
   ngOnInit(): void {
-  }
 
+    this._resumeService.getResumeData()
+                          .subscribe(resumeData => {
+                            this.resumeData = resumeData;
+                          }, error => this.errorMessage = <any>error);
+  }          
 }
+
+

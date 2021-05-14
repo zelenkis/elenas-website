@@ -6,43 +6,13 @@
         </div>
         <div class="col-lg">
             <div class="timeline">
-                <div class="card border-0 timeline-box left">
+                <div class="card border-0 timeline-box "
+                    *ngFor="let role of resumeData?.roles; let even = even; let odd = odd;"
+                    [ngClass]="{ right: odd, left: even }">
                     <div class="card-body">
-                        <div class="date">2018</div>
-                        <h5 class="card-title">Maternity Leave & Studies</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Chisinau</h6>
-                    </div>
-                </div>
-
-                <div class="card border-0 timeline-box right">
-                    <div class="card-body">
-                        <div class="date">2014</div>
-                        <h5 class="card-title">Research Associate</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Pedersen & Partners, Chisinau & Singapore</h6>
-                    </div>
-                </div>
-
-                <div class="card border-0 timeline-box left">
-                    <div class="card-body">
-                        <div class="date">2013</div>
-                        <h5 class="card-title">Research Analyst, Shared Resources Center</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Pedersen & Partners, Chisinau</h6>
-                    </div>
-                </div>
-
-                <div class="card border-0 timeline-box right">
-                    <div class="card-body">
-                        <div class="date">2013</div>
-                        <h5 class="card-title">Sales Agent and Customer Service</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Brainstrom Cafe (ex-Erudit Club), Chisinau</h6>
-                    </div>
-                </div>
-
-                <div class="card border-0 timeline-box left">
-                    <div class="card-body">
-                        <div class="date">2011</div>
-                        <h5 class="card-title">Call-Center Customer Service Specialist</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">BC "Universalbank" SA, Chisinau</h6>
+                        <div class="date">{{ role.startDate | slice: -4 }}</div>
+                        <h5 class="card-title">{{ role.position }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{ role.company}}</h6>
                     </div>
                 </div>
 

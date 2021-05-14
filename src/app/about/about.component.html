@@ -5,20 +5,15 @@
         </h1>
 
         <div class="text-muted fs-6 mb-3">
-            <p class="text mb-4">
-                {{ aboutText.p1 }}
+            <p *ngFor="let paragraph of resumeData?.basics?.aboutText?.paragraphs" class="text mb-4">
+                {{ paragraph }}
             </p>
-            <p class="text mb-4">
-                {{ aboutText.p2 }}
 
-            </p>
-            <p class="text mb-4">
-                {{ aboutText.p3 }}
-
-            </p>
-            <ul class="text mb-4">
-                <li *ngFor="let listItem of aboutText.listItems">{{ listItem }}</li>
-            </ul>
+            <!-- <ul class="text mb-4">
+                <li *ngFor="let course of aboutText.courses">
+                    {{ course }}
+                </li>
+            </ul> -->
 
         </div>
 

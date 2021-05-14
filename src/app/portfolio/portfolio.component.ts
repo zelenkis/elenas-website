@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ResumeService } from '../resume.service';
+import { IResume } from '../services/resume';
 
 @Component({
   selector: 'app-portfolio',
@@ -8,29 +10,21 @@ import { Component, OnInit } from '@angular/core';
     flex-direction: row-reverse !important;
     }
   `
-]
+  ]
 })
 export class PortfolioComponent implements OnInit {
   title ="Projects";
-  projects= [
-    {
-      "title": "Personal Website",
-      "description": "My personal responsive portfolio website for showcasing my experience, CV, as well as blog articles. Built with Angular and Bootstrap.",
-      "imageUrl": "assets/images/pexels-light-coffee.jpg",
-      "URL": "https://zelenkis.github.io/elenas-website/",
-      "gitHub": "https://github.com/zelenkis/elenas-website"
-    },
-    {
-      "title": "Textile Services MD",
-      "description": "A website tailored for a family business that offers home and office textile services. The webiste consists of a landing page and a gallery view. Built with Laravel and Bootstrap.",
-      "imageUrl": "assets/images/pexels-light-eucalyptus-coffee-cup.jpg",
-      "URL": "#",
-      "gitHub": "https://github.com/zelenkis/textileservices"
-    },
-  ]
-  constructor() { }
+  errorMessage!: string;
+  resumeData!: IResume;
 
+  constructor(private _resumeService: ResumeService){}
+    
   ngOnInit(): void {
+
+    this._resumeService.getResumeData()
+                          .subscribe(resumeData => {
+                            this.resumeData = resumeData;
+                          }, error => this.errorMessage = <any>error);
   }
 
 }

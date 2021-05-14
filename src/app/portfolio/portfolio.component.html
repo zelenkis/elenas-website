@@ -4,7 +4,7 @@
             <h1 class="text-header text-center">{{ title }}</h1>
 
         </div>
-        <div class="parentrow row" *ngFor="let project of projects; let even = even; let odd = odd;"
+        <div class="parentrow row" *ngFor="let project of resumeData?.projects; let even = even; let odd = odd;"
             [ngClass]="{even: even, odd: odd}">
             <div class="imagecol col d-none d-md-block">
 
@@ -17,7 +17,7 @@
                     <hr>
                     <p class="portfolio-text"> {{ project.description }} </p>
                     <a class="text-muted" href="{{ project.URL }}" target="_blank">Go to Website</a><br>
-                    <a class="text-muted" href="{{ project.gitHub }}" target="_blank">See the code: <i
+                    <a class="text-muted" href="{{ project.gitHubUrl }}" target="_blank">See the code: <i
                             class="fab fa-github-square"></i></a>
 
                 </div>
