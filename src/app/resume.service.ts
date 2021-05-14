@@ -18,9 +18,7 @@ export class ResumeService {
 
   getResumeData(): Observable<IResume> {
     return this._http.get<IResume>(this._resumeUrl)
-      .pipe(
-        tap(data => console.log("From Service: " + JSON.stringify(data))),
-        catchError(this.handleError));
+      .pipe(catchError(this.handleError));
   }
 
   private handleError(err: HttpErrorResponse) {
