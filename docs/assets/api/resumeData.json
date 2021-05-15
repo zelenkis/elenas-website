@@ -13,7 +13,7 @@
             {
                 "title": "LinkedIn",
                 "url": "https://www.linkedin.com/in/elenapistruga",
-                "account": "https://www.linkedin.com/in/elenapistruga",
+                "account": "linkedin.com/in/elenapistruga",
                 "icon": "fab fa-linkedin-in"
             },
             {
@@ -43,7 +43,7 @@
         {
             "company": "Chisinau",
             "position": "Maternity Leave & Studies",
-            "companyWebsite": "http://pedersenandpartners.com",
+            "companyWebsite": "N/A",
             "startDate": "January 2018",
             "endDate": "current",
             "summary": "Description..."
@@ -60,24 +60,24 @@
             "company": "Pedersen & Partners, Chisinau",
             "position": "Research Analyst",
             "companyWebsite": "http://pedersenandpartners.com",
-            "startDate": "March 2013",
+            "startDate": "September 2013",
             "endDate": "September 2014",
             "summary": "Description..."
         },
         {
             "company": "Brainstrom Cafe (ex-Erudit Club), Chisinau",
             "position": "Sales Agent and Customer Service",
-            "companyWebsite": "http://pedersenandpartners.com",
+            "companyWebsite": "N/A",
             "startDate": "March 2013",
             "endDate": "September 2013",
             "summary": "Description..."
         },
         {
-            "company": "Brainstrom Cafe (ex-Erudit Club), Chisinau",
+            "company": "BC Universalbank SA",
             "position": "Call-Center Customer Service Specialist",
-            "companyWebsite": "http://pedersenandpartners.com",
+            "companyWebsite": "N/A",
             "startDate": "June 2011",
-            "endDate": "September 2013",
+            "endDate": "November 2011",
             "summary": "Description..."
         }
     ],
