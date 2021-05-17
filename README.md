@@ -11,3 +11,6 @@ Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app wil
 
 ## Help
 For any inquiries or collaboration, contact me on [Linkedin](https://www.linkedin.com/in/elenapistruga/) or [Telegram](https://t.me/hellen_pi).
+
+## License
+Copyright &copy; 2021 [Elena Pistruga](https://github.com/zelenkis).<br/>
