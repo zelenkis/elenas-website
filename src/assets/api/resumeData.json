@@ -17,6 +17,12 @@
                 "icon": "fab fa-linkedin-in"
             },
             {
+                "title": "Github",
+                "url": "https://github.com/zelenkis",
+                "account": "zelenkis",
+                "icon": "fab fa-github-square"
+            },
+            {
                 "title": "Telegram",
                 "url": "https://t.me/hellen_pi",
                 "account": "hellen_pi",
